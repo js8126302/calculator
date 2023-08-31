@@ -19,6 +19,7 @@
   
   .output {
     height: 80px;
+   /* border: 2px solid black; */
   }
   
   .keys {
@@ -32,29 +33,39 @@
     color: #ffffff;
     grid-column-end: 3;
     grid-column-start: 1;
-    background-color: #561a56;
+    background-color: #8c0404;
   }
   
   .keys button:nth-child(15) {
     color: #ffffff;
     grid-row: 4 / 6;
     grid-column: 4 / 4;
-    background-color: green;
+    background-color: rgb(3, 8, 62);
   }
   
   .keys button:nth-child(16) {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+
+ 
   
   .input,
   .result {
     color: #fff;
     height: 40px;
     display: block;
-    font-size: 40px;
+    /*font-size: 40px;*/
     text-align: right;
     padding-right: 10px;
+    
+  }
+  .input {
+    font-size: 40px;
+  }
+  .result {
+    font-size: 42px;
+    font-weight: bold;
   }
   
   button {

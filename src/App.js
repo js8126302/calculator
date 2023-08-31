@@ -139,6 +139,7 @@ const App = () => {
     else if (output === calculatorData) {
       setInput(value);
       setCalculatorData(value);
+      setOutput("");
     }
     else {
       const lastChar = calculatorData[calculatorData.length - 1];
